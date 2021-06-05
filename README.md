@@ -1,5 +1,14 @@
 # Working with Git on VS Code
 
+## Table of Contents
+1. [Setup a Git repository in VS Code](#setup-a-git-repository-in-vs-code)  
+2. [How to use Git on VS Code](#how-to-use-git-on-vs-code)
+    - [Commit and Push Changes](#commit-and-push-changes)  
+    - [Pull Changes](#pull-changes)  
+    - [Timeline View or Git History](#timeline-view-or-git-history)  
+    - [Branches](#branches)  
+3. [Useful Resources](#useful-resources)
+
 ## Setup a Git repository in VS Code
 1.  Check that `.git` is auto-created in the project folder by VS Code (view in File Explorer).  
 If `.git` is not found, you can initialize Git for the project in 2 ways:  
@@ -13,8 +22,6 @@ If there is an output `git version ...`, it's already installed. If not, [downlo
 2. With this Git repository, you can use the Git features on VS Code (such as branching, commiting changes). On VS Code, this is called Version/Source Control.
 
 ## How to use Git on VS Code
-See the [video tutorial](https://code.visualstudio.com/docs/introvideos/versioncontrol) or the [documentation](https://code.visualstudio.com/docs/editor/versioncontrol) by VS Code for more details.  
-
 To see details of your current repository changes, select the Source Control icon in the Activity Bar on the left or press `Ctrl+Shift+G`.  
 
 ### Commit and Push Changes
@@ -40,3 +47,8 @@ At the bottom of the panel, click the Timeline tab.
 To create branches, these are 2 methods:  
 - In the Command Palette (`Ctrl+Shift+P`), use the command `Git: Create Branch`  
 - Click the 3 dot menu > Branch > Create New Branch 
+
+## Useful Resources
+- [Video Tutorial by VS Code](https://code.visualstudio.com/docs/introvideos/versioncontrol)
+- [Documentation by VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
+- [Video Tuturial by Ihatetomatoes](https://www.youtube.com/watch?v=F2DBSH2VoHQ&ab_channel=Ihatetomatoes)
