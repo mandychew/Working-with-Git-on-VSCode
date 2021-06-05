@@ -7,7 +7,8 @@
     - [Pull Changes](#pull-changes)  
     - [Timeline View or Git History](#timeline-view-or-git-history)  
     - [Branches](#branches)  
-3. [Useful Resources](#useful-resources)
+3. [Useful Resources](#useful-resources)  
+4. [Author's Note](#authors-note)  
 
 ## Setup a Git repository in VS Code
 1.  Check that `.git` is auto-created in the project folder by VS Code (view in File Explorer).  
@@ -52,3 +53,6 @@ To create branches, these are 2 methods:
 - [Video Tutorial by VS Code](https://code.visualstudio.com/docs/introvideos/versioncontrol)
 - [Documentation by VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 - [Video Tuturial by Ihatetomatoes](https://www.youtube.com/watch?v=F2DBSH2VoHQ&ab_channel=Ihatetomatoes)
+
+## Author's Note
+This content was initially contributed by me ([mandychew](https://github.com/mandychew)) to [chewern/react-vscode-git](https://github.com/chewern/react-vscode-git).
