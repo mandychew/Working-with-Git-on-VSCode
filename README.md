@@ -18,7 +18,12 @@ If `.git` is not found, you can initialize Git for the project in 2 ways:
     - If you don't want to automatically initialize Git in all projects, and only for one project, do the following:  
         - Type in terminal (within the project folder) `git --version` to check if Git is installed.  
 If there is an output `git version ...`, it's already installed. If not, [download Git](https://git-scm.com/downloads/).  
-        - Next, update Git config with name and email (skip if already done) by typing in the Terminal `git config --global user.name "Your Name"` and `git config --global user.email "Your Email"`.
+        - Next, update Git config with name and email (skip if already done) by typing in the Terminal: 
+            ```
+            git config --global user.name "Your Name"
+            git config --global user.email "Your Email"
+            ``` 
+        
         - To initialize the Git repository, go to the Source Control tab (`Ctrl+Shift+G`) and click `Initialize Repository` or type `git init {project-name}` in the Terminal.
 2. With this Git repository, you can use the Git features on VS Code (such as branching, commiting changes). On VS Code, this is called Version/Source Control.
 
