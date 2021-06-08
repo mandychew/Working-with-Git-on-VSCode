@@ -1,4 +1,5 @@
 # Working with Git on VS Code
+This project documents how to work with Git on VS Code.
 
 ## Table of Contents
 1. [Setup a Git repository in VS Code](#setup-a-git-repository-in-vs-code)  
